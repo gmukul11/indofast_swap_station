@@ -40,7 +40,7 @@ def calculate_stations(vehicle_counts, utilization_pct, running_pct):
 
 
 # ---------------- UI ----------------
-st.title("Swap Station Requirement Calculator")
+st.title("Station Planning Tool")
 
 st.markdown("### 📥 Input Vehicle Counts")
 vehicle_2w = st.number_input("Number of 2W Vehicles", min_value=0, value=1000)
